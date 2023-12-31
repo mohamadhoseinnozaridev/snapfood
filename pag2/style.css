@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: BYekan;
+  src: url("./webfonts/BYekan.ttf");
+}
+
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: "BYekan";
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  padding-top: 40px;
+}
+/* nav__start */
+.nav {
+  cursor: pointer;
+  box-shadow: 0px 6px 6px -5px rgba(241, 241, 241, 0.75);
+  -webkit-box-shadow: 0px 6px 6px -5px rgba(241, 241, 241, 0.75);
+  -moz-box-shadow: 0px 6px 6px -5px rgba(241, 241, 241, 0.75);
+}
+.nav__top {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.nav__top__right {
+  display: flex;
+}
+.nav__top__right__logo {
+}
+.nav__top__right__logo svg {
+  font-size: 10px;
+  padding-left: 20px;
+}
+.nav__top__right__title {
+  display: flex;
+  align-items: center;
+}
+.nav__top__right__title__logo {
+  padding: 10px;
+}
+.nav__top__right__title__logo svg {
+  font-size: 7px;
+  fill: #b9bdc4;
+}
+.nav__top__right__title__discripshin {
+}
+.nav__top__right__title__discripshin h5 {
+}
+.nav__top__right__title__discripshin span {
+  color: #b9bdc4;
+  font-size: 10px;
+}
+.nav__top__right__title__discripshin svg {
+  fill: #ff0eb7;
+}
+
+.nav__top__medel {
+  display: flex;
+  align-items: center;
+}
+.nav__top__medel .nav__top__medel__serch {
+  background-color: rgb(235, 237, 240);
+  padding: 10px;
+  width: 400px;
+}
+
+.nav__top__medel i {
+  color: #a6aaad;
+}
+.nav__top__medel input {
+  border: none;
+  outline: none;
+  background-color: rgb(235, 237, 240);
+  font-weight: bold;
+  color: #a6aaad;
+}
+.nav__top__left {
+  display: flex;
+  align-items: center;
+}
+.nav__top__left__title {
+  display: flex;
+  align-items: center;
+}
+.nav__top__left__title svg {
+  padding: 2px;
+}
+.nav__top__left__title span {
+  font-size: 0.875rem;
+  color: #4a4f58;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav__top__left__btn {
+}
+.nav__top__left__btn button {
+  outline: none;
+  border: none;
+  background-color: #ff0eb7;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bolder;
+}
+.nav__bottm {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav__bottm__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav__bottm__item img {
+  height: 25px;
+  width: 25px;
+  padding-bottom: 5px;
+}
+.nav__bottm__item span {
+  font-size: 10px;
+}
+/* nav__end */
+/* main__away__start */
+.main {
+  position: sticky;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.main__left {
+  cursor: pointer;
+  flex: 9;
+  border: 1px solid rgb(58 61 66 / 6%);
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 100;
+}
+.main__left__row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.main__left__row__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(58 61 66 / 6%);
+  border-radius: 10px;
+  font-size: 10px;
+}
+.main__left__row__item__up {
+}
+.picure {
+  width: 200px;
+  height: 100px;
+}
+.tag {
+}
+.main__left__row__item__down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+}
+.title {
+  padding-top: 15px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.pointer {
+  color: #a6aaad;
+}
+.fa {
+}
+.fa-star {
+  color: yellow;
+}
+.discripshio {
+  color: #a6aaad;
+  margin-bottom: 20px;
+}
+.price {
+  padding: 5px;
+  border: 1px solid rgb(58 61 66 / 6%);
+  border-radius: 10px;
+  font-size: 8px;
+}
+.main__left__row__itemicon {
+}
+.icon_pic {
+  position: absolute;
+  top: 50%;
+  transform: translate(-80px, -32px);
+  width: 40px;
+  height: 40px;
+}
+
+.main__right {
+  cursor: pointer;
+  flex: 3;
+  border: 1px solid rgb(58 61 66 / 6%);
+  border-radius: 10px;
+}
+.main__right__up {
+  padding: 10px;
+}
+.main__right__up__title {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(58 61 66 / 6%);
+  border-radius: 5px;
+  background-color: rgb(58 61 66 / 6%);
+}
+.main__right__up__title span {
+  padding-right: 13px;
+  display: flex;
+  align-items: center;
+}
+.main__right__up__items {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  padding-right: 10px;
+}
+.main__right__up__items img {
+  width: 32px;
+  height: 32px;
+}
+.main__right__up__items span {
+  padding: 15px;
+}
+.main__right__midel {
+  border: 1px solid rgb(58 61 66 / 6%);
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 10px;
+  padding: 10px;
+}
+.main__right__midel__title {
+  padding: 10px;
+}
+.main__right__midel__title p {
+  margin-bottom: 10px;
+}
+.main__right__midel__item {
+  border: 1px solid rgb(58 61 66 / 6%);
+  background-color: rgb(58 61 66 / 6%);
+  border-radius: 10px;
+}
+.main__right__midel__item span {
+  padding-inline: 10px;
+}
+
+.main__right__down {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid rgb(58 61 66 / 6%);
+  border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+}
+.main__right__down__item {
+  display: flex;
+  justify-content: space-between;
+}
+.main__right__down__item span {
+  font-size: 10px;
+}
+.main__right__down__item label {
+}
+/* main__away__end */
+
+/* .footer__start */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #f9fafb;
+  padding-bottom: 50px;
+}
+.footer__right {
+  display: flex;
+  gap: 10px;
+}
+.footer__right__logo {
+}
+.footer__right__logo svg {
+}
+.footer__right__title {
+}
+.footer__right__title h5 {
+  color: #ff00a6;
+  font-size: 20px;
+}
+.footer__right__title p {
+  color: #53565c;
+  font-size: 10px;
+}
+.footer__right__icon {
+}
+.footer__medil {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  font-size: 10px;
+  line-height: 20px;
+}
+.footer__medil__right {
+  display: flex;
+  flex-direction: column;
+}
+.footer__medil__right a {
+  color: #53565c;
+}
+.footer__medil__left {
+  display: flex;
+  flex-direction: column;
+}
+.footer__medil__left a {
+  color: #53565c;
+}
+.footer__left {
+}
+.footer__left img {
+  width: 50px;
+}
+
+/* .footer__end */
